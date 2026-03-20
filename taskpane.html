@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Форматирование таблиц</title>
+
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script> 
+
+  <link rel="stylesheet" href="taskpane.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Форматирование таблиц</h1>
+    <p class="description">
+      Выберите стиль оформления таблицы и нажмите кнопку.
+    </p>
+
+    <label for="styleSelect">Выберите стиль:</label>
+    <select id="styleSelect">
+      <option value="standard">Стандартный</option>
+      <option value="espd">ЕСПД</option>
+      <option value="simple">Упрощённый</option>
+    </select>
+
+    <button id="formatButton">Применить формат</button>
+
+    <div id="status" class="status">
+      Плагин загружен. Готов к работе.
+    </div>
+  </div>
+
+
+  <script src="app.js?v=3001"></script>
+</body>
+</html>

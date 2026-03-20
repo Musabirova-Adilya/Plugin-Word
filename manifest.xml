@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xsi:type="TaskPaneApp">
+  <Id>7f9b5c1e-4c8b-4c3f-8f8b-123456789abc</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Student Project</ProviderName>
+  <DefaultLocale>ru-RU</DefaultLocale>
+  <DisplayName DefaultValue="Форматирование таблиц"/>
+  <Description DefaultValue="Плагин для форматирования таблиц в Word"/>
+  <IconUrl DefaultValue="https://localhost:3000/icon.png"/>
+  <HighResolutionIconUrl DefaultValue="https://localhost:3000/icon.png"/>
+  <SupportUrl DefaultValue="https://localhost:3000/taskpane.html"/>
+
+  <AppDomains>
+    <AppDomain>https://localhost:3000</AppDomain>
+  </AppDomains>
+
+  <Hosts>
+    <Host Name="Document"/>
+  </Hosts>
+
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+  </DefaultSettings>
+
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
